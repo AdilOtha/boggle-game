@@ -1,3 +1,5 @@
+package pkg;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.*;
@@ -55,6 +57,7 @@ public class Boggle {
                 wordList.add(word);
             }
         } catch (IOException ioException){ // catch all I/O exceptions
+            ioException.printStackTrace();
             return false;
         }
 

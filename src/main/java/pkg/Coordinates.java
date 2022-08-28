@@ -1,3 +1,5 @@
+package pkg;
+
 /**
  * Defines the data and methods that represent X and Y coordinates of a letter in the grid
  * and the direction moved in to reach that letter.
